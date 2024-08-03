@@ -1,4 +1,4 @@
-## Arduino-Based Real time Gas Cylinder Monitoring System for Kenyan Household
+## Arduino-Based Real time Gas Cylinder Monitoring System for Kenyan Households
 
 ### Background
 Liquefied Petroleum Gas (LPG) is a widely used fuel for domestic and commercial applications. Monitoring the level of LPG in cylinders is crucial for safety and efficient usage. Traditional methods often rely on visual inspection of the cylinder level indicator, which can be inaccurate and inconvenient. This project aims to develop a real-time, user-friendly system for monitoring LPG cylinder levels using Arduino technology. 
@@ -21,6 +21,10 @@ Liquefied Petroleum Gas (LPG) is a widely used fuel for domestic and commercial 
     * Jumper wires
 * **Software:**
     * Arduino IDE
+    * Arduino Bluetooth Controller
+    * TinkerCAD
+  
+Circuit diagram ![here](https://github.com/kuriofoolio/gas-cylinder-monitoring-system/blob/main/implementation.png)
 
 ### Theory of Operation
 The system utilizes an ultrasonic distance sensor to measure the distance between the sensor and the top of the LPG cylinder. This distance is then converted into a gas level percentage based on the cylinder's dimensions. The calculated gas level is displayed on the LCD and transmitted via Bluetooth to a connected device.
@@ -30,6 +34,8 @@ The system utilizes an ultrasonic distance sensor to measure the distance betwee
 * Environmental factors like temperature and humidity can affect the sensor's readings.
 * Bluetooth communication range and reliability might vary depending on the environment and the Bluetooth module used.
 * The system's performance can be improved by implementing additional features like gas leak detection or temperature monitoring.
+
+A video of the simulation can be found [here](https://drive.google.com/file/d/1-9dvzOR-foHtKhkIebryBbdTwPx9Lo6y/view) . 
 
 ### Conclusions
 The developed system provides a reliable and convenient way to monitor LPG cylinder levels. By replacing traditional methods with a digital solution, the system enhances user safety and experience.
