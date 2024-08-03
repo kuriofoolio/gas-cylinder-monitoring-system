@@ -24,7 +24,8 @@ Liquefied Petroleum Gas (LPG) is a widely used fuel for domestic and commercial 
     * Arduino Bluetooth Controller
     * TinkerCAD
   
-Circuit diagram ![here](https://github.com/kuriofoolio/gas-cylinder-monitoring-system/blob/main/implementation.png)
+## Circuit diagram
+[here](https://github.com/kuriofoolio/gas-cylinder-monitoring-system/blob/main/implementation.png)
 
 ### Theory of Operation
 The system utilizes an ultrasonic distance sensor to measure the distance between the sensor and the top of the LPG cylinder. This distance is then converted into a gas level percentage based on the cylinder's dimensions. The calculated gas level is displayed on the LCD and transmitted via Bluetooth to a connected device.
